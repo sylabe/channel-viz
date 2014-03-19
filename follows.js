@@ -150,7 +150,7 @@
 										height: 200,
 										renderer: 'bar',
 										min: parseFloat(datastream.min_value),
-										max: parseFloat(datastream.max_value),
+										max: parseFloat(datastream.current_value)*1.01,
 										padding: {
 											top: 0.02,
 											right: 0.02,
