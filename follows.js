@@ -22,7 +22,7 @@
 
 // Function Declarations
 
-	// URL Parameters
+	// URL Parameters 
 	function getParam(key) {
 	 	var value = location.hash.match(new RegExp(key+'=([^&]*)'));
 		if(value) {
